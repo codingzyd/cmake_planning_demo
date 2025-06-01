@@ -22,5 +22,11 @@
   "command": "F:\\3rdparty\\mingw64\\bin\\g++.exe  @CMakeFiles/showresult.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\showresult.dir\\showresult.cpp.obj -c E:\\VS_projects\\VSCode\\cmake_planning_demo\\src\\showresult\\showresult.cpp",
   "file": "E:/VS_projects/VSCode/cmake_planning_demo/src/showresult/showresult.cpp",
   "output": "src/showresult/CMakeFiles/showresult.dir/showresult.cpp.obj"
+},
+{
+  "directory": "E:/VS_projects/VSCode/cmake_planning_demo/build/test/map_test",
+  "command": "F:\\3rdparty\\mingw64\\bin\\g++.exe  @CMakeFiles/map_test.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\map_test.dir\\map_test.cpp.obj -c E:\\VS_projects\\VSCode\\cmake_planning_demo\\test\\map_test\\map_test.cpp",
+  "file": "E:/VS_projects/VSCode/cmake_planning_demo/test/map_test/map_test.cpp",
+  "output": "test/map_test/CMakeFiles/map_test.dir/map_test.cpp.obj"
 }
 ]

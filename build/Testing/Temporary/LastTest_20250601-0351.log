@@ -1,0 +1,20 @@
+Start testing: Jun 01 11:54 中国标准时间
+----------------------------------------------------------
+1/1 Testing: map_info_test
+1/1 Test: map_info_test
+Command: "E:/VS_projects/VSCode/cmake_planning_demo/bin/map_test.exe"
+Directory: E:/VS_projects/VSCode/cmake_planning_demo/build/test/map_test
+"map_info_test" start time: Jun 01 11:54 中国标准时间
+Output:
+----------------------------------------------------------
+This is map test!
+This is pnc_map.
+<end of output>
+Test time =   0.19 sec
+----------------------------------------------------------
+Test Passed.
+"map_info_test" end time: Jun 01 11:54 中国标准时间
+"map_info_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 01 11:54 中国标准时间

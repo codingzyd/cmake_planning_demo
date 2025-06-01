@@ -1,9 +1,11 @@
 {
-	"archive" : {},
 	"artifacts" : 
 	[
 		{
-			"path" : "src/showresult/libshowresult.a"
+			"path" : "E:/VS_projects/VSCode/cmake_planning_demo/bin/map_test.exe"
+		},
+		{
+			"path" : "E:/VS_projects/VSCode/cmake_planning_demo/bin/map_test.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -11,14 +13,14 @@
 	{
 		"commands" : 
 		[
-			"add_library",
+			"add_executable",
 			"target_link_libraries",
 			"include_directories",
 			"target_include_directories"
 		],
 		"files" : 
 		[
-			"src/showresult/CMakeLists.txt",
+			"test/map_test/CMakeLists.txt",
 			"CMakeLists.txt"
 		],
 		"nodes" : 
@@ -44,7 +46,7 @@
 			{
 				"command" : 2,
 				"file" : 1,
-				"line" : 17,
+				"line" : 18,
 				"parent" : 3
 			},
 			{
@@ -72,10 +74,6 @@
 				},
 				{
 					"backtrace" : 5,
-					"path" : "E:/VS_projects/VSCode/cmake_planning_demo/src/process"
-				},
-				{
-					"backtrace" : 2,
 					"path" : "E:/VS_projects/VSCode/cmake_planning_demo/src/pnc_map"
 				}
 			],
@@ -99,19 +97,39 @@
 		{
 			"backtrace" : 2,
 			"id" : "pnc_map::@252d5772c77a80ef76b0"
-		},
-		{
-			"backtrace" : 2,
-			"id" : "process::@0c136a57587ef2cf0836"
 		}
 	],
-	"id" : "showresult::@da04e55f3a0503aed0fe",
-	"name" : "showresult",
-	"nameOnDisk" : "libshowresult.a",
+	"id" : "map_test::@ceab4b1ca83c6e9a91cf",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-O3 -DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "..\\..\\src\\pnc_map\\libpnc_map.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "map_test",
+	"nameOnDisk" : "map_test.exe",
 	"paths" : 
 	{
-		"build" : "src/showresult",
-		"source" : "src/showresult"
+		"build" : "test/map_test",
+		"source" : "test/map_test"
 	},
 	"sourceGroups" : 
 	[
@@ -128,9 +146,9 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/showresult/showresult.cpp",
+			"path" : "test/map_test/map_test.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
-	"type" : "STATIC_LIBRARY"
+	"type" : "EXECUTABLE"
 }

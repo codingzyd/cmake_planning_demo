@@ -7,6 +7,7 @@ project(planning
 )
 
 set(CMAKE_CXX_STANDARD 17)
+enable_testing()
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/bin)
 set(Process_Dir ${PROJECT_SOURCE_DIR}/src/process)
@@ -16,3 +17,4 @@ set(Showresult_Dir ${PROJECT_SOURCE_DIR}/src/showresult)
 set(EIGEN3_DIR "F:/3rdparty/eigen-3.4.0")
 include_directories(${EIGEN3_DIR})
 add_subdirectory(src)
+add_subdirectory(test/map_test)

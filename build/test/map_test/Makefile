@@ -96,14 +96,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d E:\VS_projects\VSCode\cmake_planning_demo\build && $(CMAKE_COMMAND) -E cmake_progress_start E:\VS_projects\VSCode\cmake_planning_demo\build\CMakeFiles E:\VS_projects\VSCode\cmake_planning_demo\build\src\process\\CMakeFiles\progress.marks
-	cd /d E:\VS_projects\VSCode\cmake_planning_demo\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/process/all
+	cd /d E:\VS_projects\VSCode\cmake_planning_demo\build && $(CMAKE_COMMAND) -E cmake_progress_start E:\VS_projects\VSCode\cmake_planning_demo\build\CMakeFiles E:\VS_projects\VSCode\cmake_planning_demo\build\test\map_test\\CMakeFiles\progress.marks
+	cd /d E:\VS_projects\VSCode\cmake_planning_demo\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/map_test/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\VS_projects\VSCode\cmake_planning_demo\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d E:\VS_projects\VSCode\cmake_planning_demo\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/process/clean
+	cd /d E:\VS_projects\VSCode\cmake_planning_demo\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/map_test/clean
 .PHONY : clean
 
 # The main clean target
@@ -112,12 +112,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d E:\VS_projects\VSCode\cmake_planning_demo\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/process/preinstall
+	cd /d E:\VS_projects\VSCode\cmake_planning_demo\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/map_test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d E:\VS_projects\VSCode\cmake_planning_demo\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/process/preinstall
+	cd /d E:\VS_projects\VSCode\cmake_planning_demo\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/map_test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
@@ -126,42 +126,42 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-src/process/CMakeFiles/process.dir/rule:
-	cd /d E:\VS_projects\VSCode\cmake_planning_demo\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/process/CMakeFiles/process.dir/rule
-.PHONY : src/process/CMakeFiles/process.dir/rule
+test/map_test/CMakeFiles/map_test.dir/rule:
+	cd /d E:\VS_projects\VSCode\cmake_planning_demo\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/map_test/CMakeFiles/map_test.dir/rule
+.PHONY : test/map_test/CMakeFiles/map_test.dir/rule
 
 # Convenience name for target.
-process: src/process/CMakeFiles/process.dir/rule
-.PHONY : process
+map_test: test/map_test/CMakeFiles/map_test.dir/rule
+.PHONY : map_test
 
 # fast build rule for target.
-process/fast:
-	cd /d E:\VS_projects\VSCode\cmake_planning_demo\build && $(MAKE) $(MAKESILENT) -f src\process\CMakeFiles\process.dir\build.make src/process/CMakeFiles/process.dir/build
-.PHONY : process/fast
+map_test/fast:
+	cd /d E:\VS_projects\VSCode\cmake_planning_demo\build && $(MAKE) $(MAKESILENT) -f test\map_test\CMakeFiles\map_test.dir\build.make test/map_test/CMakeFiles/map_test.dir/build
+.PHONY : map_test/fast
 
-process.obj: process.cpp.obj
-.PHONY : process.obj
+map_test.obj: map_test.cpp.obj
+.PHONY : map_test.obj
 
 # target to build an object file
-process.cpp.obj:
-	cd /d E:\VS_projects\VSCode\cmake_planning_demo\build && $(MAKE) $(MAKESILENT) -f src\process\CMakeFiles\process.dir\build.make src/process/CMakeFiles/process.dir/process.cpp.obj
-.PHONY : process.cpp.obj
+map_test.cpp.obj:
+	cd /d E:\VS_projects\VSCode\cmake_planning_demo\build && $(MAKE) $(MAKESILENT) -f test\map_test\CMakeFiles\map_test.dir\build.make test/map_test/CMakeFiles/map_test.dir/map_test.cpp.obj
+.PHONY : map_test.cpp.obj
 
-process.i: process.cpp.i
-.PHONY : process.i
+map_test.i: map_test.cpp.i
+.PHONY : map_test.i
 
 # target to preprocess a source file
-process.cpp.i:
-	cd /d E:\VS_projects\VSCode\cmake_planning_demo\build && $(MAKE) $(MAKESILENT) -f src\process\CMakeFiles\process.dir\build.make src/process/CMakeFiles/process.dir/process.cpp.i
-.PHONY : process.cpp.i
+map_test.cpp.i:
+	cd /d E:\VS_projects\VSCode\cmake_planning_demo\build && $(MAKE) $(MAKESILENT) -f test\map_test\CMakeFiles\map_test.dir\build.make test/map_test/CMakeFiles/map_test.dir/map_test.cpp.i
+.PHONY : map_test.cpp.i
 
-process.s: process.cpp.s
-.PHONY : process.s
+map_test.s: map_test.cpp.s
+.PHONY : map_test.s
 
 # target to generate assembly for a file
-process.cpp.s:
-	cd /d E:\VS_projects\VSCode\cmake_planning_demo\build && $(MAKE) $(MAKESILENT) -f src\process\CMakeFiles\process.dir\build.make src/process/CMakeFiles/process.dir/process.cpp.s
-.PHONY : process.cpp.s
+map_test.cpp.s:
+	cd /d E:\VS_projects\VSCode\cmake_planning_demo\build && $(MAKE) $(MAKESILENT) -f test\map_test\CMakeFiles\map_test.dir\build.make test/map_test/CMakeFiles/map_test.dir/map_test.cpp.s
+.PHONY : map_test.cpp.s
 
 # Help Target
 help:
@@ -172,10 +172,10 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... test
-	@echo ... process
-	@echo ... process.obj
-	@echo ... process.i
-	@echo ... process.s
+	@echo ... map_test
+	@echo ... map_test.obj
+	@echo ... map_test.i
+	@echo ... map_test.s
 .PHONY : help
 
 
