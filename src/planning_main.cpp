@@ -1,5 +1,6 @@
 #include <iostream>
 #include "process.h"
+#include "showresult.h"
 
 int main()
 {
@@ -8,5 +9,8 @@ int main()
     proc.planProcess();
     std::cout << "planning end." << std::endl;
     std::cout << "planning success!" << std::endl;
+    std::cout << "show result: " << std::endl;
+    ShowResult show;
+    show.drawResult();
     return 0;
 }

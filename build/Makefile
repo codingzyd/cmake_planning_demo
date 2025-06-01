@@ -56,10 +56,10 @@ RM = F:\Cmake3.31.6\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\VS_projects\VSCode
+CMAKE_SOURCE_DIR = E:\VS_projects\VSCode\cmake_planning_demo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\VS_projects\VSCode\build
+CMAKE_BINARY_DIR = E:\VS_projects\VSCode\cmake_planning_demo\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\VS_projects\VSCode\build\CMakeFiles E:\VS_projects\VSCode\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\VS_projects\VSCode\cmake_planning_demo\build\CMakeFiles E:\VS_projects\VSCode\cmake_planning_demo\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\VS_projects\VSCode\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\VS_projects\VSCode\cmake_planning_demo\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -115,6 +115,58 @@ depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
+#=============================================================================
+# Target rules for targets named planning_main
+
+# Build rule for target.
+planning_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 planning_main
+.PHONY : planning_main
+
+# fast build rule for target.
+planning_main/fast:
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\planning_main.dir\build.make src/CMakeFiles/planning_main.dir/build
+.PHONY : planning_main/fast
+
+#=============================================================================
+# Target rules for targets named pnc_map
+
+# Build rule for target.
+pnc_map: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 pnc_map
+.PHONY : pnc_map
+
+# fast build rule for target.
+pnc_map/fast:
+	$(MAKE) $(MAKESILENT) -f src\pnc_map\CMakeFiles\pnc_map.dir\build.make src/pnc_map/CMakeFiles/pnc_map.dir/build
+.PHONY : pnc_map/fast
+
+#=============================================================================
+# Target rules for targets named process
+
+# Build rule for target.
+process: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 process
+.PHONY : process
+
+# fast build rule for target.
+process/fast:
+	$(MAKE) $(MAKESILENT) -f src\process\CMakeFiles\process.dir\build.make src/process/CMakeFiles/process.dir/build
+.PHONY : process/fast
+
+#=============================================================================
+# Target rules for targets named showresult
+
+# Build rule for target.
+showresult: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 showresult
+.PHONY : showresult
+
+# fast build rule for target.
+showresult/fast:
+	$(MAKE) $(MAKESILENT) -f src\showresult\CMakeFiles\showresult.dir\build.make src/showresult/CMakeFiles/showresult.dir/build
+.PHONY : showresult/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -123,6 +175,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... planning_main
+	@echo ... pnc_map
+	@echo ... process
+	@echo ... showresult
 .PHONY : help
 
 

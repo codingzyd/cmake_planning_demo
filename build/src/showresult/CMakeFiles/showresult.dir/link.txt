@@ -1,0 +1,2 @@
+F:\3rdparty\mingw64\bin\ar.exe qc libshowresult.a CMakeFiles/showresult.dir/showresult.cpp.obj
+F:\3rdparty\mingw64\bin\ranlib.exe libshowresult.a

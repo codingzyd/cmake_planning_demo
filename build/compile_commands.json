@@ -1,0 +1,26 @@
+[
+{
+  "directory": "E:/VS_projects/VSCode/cmake_planning_demo/build/src",
+  "command": "F:\\3rdparty\\mingw64\\bin\\g++.exe  @CMakeFiles/planning_main.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\planning_main.dir\\planning_main.cpp.obj -c E:\\VS_projects\\VSCode\\cmake_planning_demo\\src\\planning_main.cpp",
+  "file": "E:/VS_projects/VSCode/cmake_planning_demo/src/planning_main.cpp",
+  "output": "src/CMakeFiles/planning_main.dir/planning_main.cpp.obj"
+},
+{
+  "directory": "E:/VS_projects/VSCode/cmake_planning_demo/build/src/pnc_map",
+  "command": "F:\\3rdparty\\mingw64\\bin\\g++.exe -Dpnc_map_EXPORTS @CMakeFiles/pnc_map.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\pnc_map.dir\\pnc_map.cpp.obj -c E:\\VS_projects\\VSCode\\cmake_planning_demo\\src\\pnc_map\\pnc_map.cpp",
+  "file": "E:/VS_projects/VSCode/cmake_planning_demo/src/pnc_map/pnc_map.cpp",
+  "output": "src/pnc_map/CMakeFiles/pnc_map.dir/pnc_map.cpp.obj"
+},
+{
+  "directory": "E:/VS_projects/VSCode/cmake_planning_demo/build/src/process",
+  "command": "F:\\3rdparty\\mingw64\\bin\\g++.exe -Dprocess_EXPORTS @CMakeFiles/process.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\process.dir\\process.cpp.obj -c E:\\VS_projects\\VSCode\\cmake_planning_demo\\src\\process\\process.cpp",
+  "file": "E:/VS_projects/VSCode/cmake_planning_demo/src/process/process.cpp",
+  "output": "src/process/CMakeFiles/process.dir/process.cpp.obj"
+},
+{
+  "directory": "E:/VS_projects/VSCode/cmake_planning_demo/build/src/showresult",
+  "command": "F:\\3rdparty\\mingw64\\bin\\g++.exe  @CMakeFiles/showresult.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\showresult.dir\\showresult.cpp.obj -c E:\\VS_projects\\VSCode\\cmake_planning_demo\\src\\showresult\\showresult.cpp",
+  "file": "E:/VS_projects/VSCode/cmake_planning_demo/src/showresult/showresult.cpp",
+  "output": "src/showresult/CMakeFiles/showresult.dir/showresult.cpp.obj"
+}
+]
